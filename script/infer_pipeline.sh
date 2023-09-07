@@ -1,6 +1,7 @@
 set -e
 
 source activate purple
+ln -s /saved_models ./saved_models
 
 # Pre-process dev
 # PASSED on 167
